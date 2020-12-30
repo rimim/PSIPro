@@ -973,7 +973,7 @@ void scanColLeftRight(unsigned long time_delay, int start_row, CRGB color, bool 
 // Display a matrix using the byte array.  Colours are defined so that
 // if the matrix has a 1, we use fgcolor, and 0 is bgcolor.
 // Optionally colors 2,3,4,5,6,7,8 (allowing a total of nine colours to be used in a pattern.
-void displayMatrixColor(const byte /*PROGMEM*/ * matrix, CRGB fgcolor, CRGB bgcolor, bool displayMe, unsigned long runtime, 
+void displayMatrixColor(const byte* matrix, CRGB fgcolor, CRGB bgcolor, bool displayMe, unsigned long runtime, 
                         CRGB color2=0x000000, CRGB color3=0x000000, CRGB color4=0x000000, CRGB color5=0x000000,
                         CRGB color6=0x000000, CRGB color7=0x000000, CRGB color8=0x000000)
 {
